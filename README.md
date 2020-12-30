@@ -26,4 +26,4 @@ mvn clean test
 6. Compare your solution with final one below. 
 [https://github.com/cleophasmashiri/exclusive-gateway-pizza-delivery-initial.git](https://github.com/cleophasmashiri/exclusive-gateway-pizza-delivery-initial.git)
 
-For more articles go to: [https://www.bpmkatas.com/](https://www.bpmkatas.com/).
+For more articles go to my blog at: [https://www.bpmkatas.com/](https://www.bpmkatas.com/).
