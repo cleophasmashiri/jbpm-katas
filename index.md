@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+#### Business Problem: Exclusive Gateway-Pizza Delivery.
+You are required to implement exclusive gateway for Pizza delivery to enable the following: 
+* If a customer selects delivery option "Home Delivery" then delivery method is set "homeDelivery". 
+* if a customer selects delivery option "Collect" then delivery is set "collect". 
+* If customer does not select delivery method "voucher" is selected. * For each branching option add script task that populates the order's actions property as order.addAction("action"), where action could be: "Collected", "Home Delivered" or "Voucher Created".
 
-You can use the [editor on GitHub](https://github.com/cleophasmashiri/jbpm-katas/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+#### Instructions 
+1. Clone initial project: 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+git clone https://github.com/cleophasmashiri/exclusive-gateway-pizza-delivery-initial.git 2\. cd into exclusive-gateway-pizza-delivery-initial and run tests. 
+```
+Run tests.
+```
+mvn clean test 
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+3. Import project "exclusive-gateway-pizza-delivery-initial" into jbpm business central.
 
-### Jekyll Themes
+4. Create process model: ExclusiveGatewayPizzaDelivery. 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cleophasmashiri/jbpm-katas/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+5. Run tests to vesrify your implementation.
+```
+mvn clean test
+```
+6. Compare your solution with final one below. 
+[https://github.com/cleophasmashiri/exclusive-gateway-pizza-delivery-initial.git](https://github.com/cleophasmashiri/exclusive-gateway-pizza-delivery-initial.git)
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For more articles go to my blog at: [https://www.bpmkatas.com/](https://www.bpmkatas.com/).
